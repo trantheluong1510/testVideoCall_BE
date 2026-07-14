@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: videocall-backend
+
+livekit:
+  url: wss://signify-u6ha39zd.livekit.cloud
+  api-key: APIp2u3xdaWk7vD
+  api-secret: LjTpvfTECZOauTOoh2mPfhI9tfuq0MMovFl2sBCfOWfG
+  room:
+    default-empty-timeout: 300
+    max-participants: 50
