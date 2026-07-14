@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/video")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "https://*", "http://*"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "https://test-video-call-fe-yeso.vercel.app", "https://*", "http://*"})
 public class VideoController {
 
     private final LiveKitService liveKitService;
